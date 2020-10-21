@@ -1,0 +1,108 @@
+#Array fill
+new Array[Int](3)
+Array.range(1, 5)
+var arr_range = Array.range(1, 10, 2)
+Array.fill(5)(-1)
+Array.fill(2, 3)(0)
+
+
+
+#ListBuffer/ArrayBuffer
+new ArrayBuffer[Int]
+val abc = ArrayBuffer[Int](2, 4, 6, 8, 10)
+
+#add
++=
+insert(0, 4)
+
+##remove
+-=
+
+#update
+arrb1.update(index, value)
+
+
+
+######MutableSet####
+new Set()
+#add
++=
+++=
+#remove
+-=
+--=
+#contains
+contains(value)
+
+
+######ImMutableSet ####
+new Set()
+#add
++
+++
+#remove
+-
+--
+
+####HashSet
+#var curr_window_chars = new HashSet[Char]()
+#curr_window_chars.add(charValue)
+#curr_window_chars.remove(charValue)
+
+
+#####StringBuilder ###
+#declare
+var sb: StringBuilder = new StringBuilder("")
+
+#add
+x += 's'
+x.insert(pos, char)
+x ++= 'Hello'
+x.append(Int) #=>add an int
+
+#delete
+x.delete(pos, char)
+
+
+
+###String  ####
+#find char pos or viceversa
+charAt
+indexOf
+indexOf(T, fromIndex)
+lastIndexOf
+
+#compare string
+compareTo
+compareToIgnoreCase
+equals
+equalsIgnoreCase
+
+#replace string
+#replace
+#replaceFirst(str regex, str replacement)
+#replaceAll
+
+---Imp functionality
+val s1 = s.trim
+val s2 = s1.reverse
+#substring
+#toUpperCase
+#toLowerCase
+
+
+#Stack
+import scala.collection.mutable.Stack
+var s = Stack[type]()
+
+// OR
+var s = Stack(val1, val2, val3, ...)
+s.push(5)
+println("Popped:" + s.pop)
+println("Empty:" + s.isEmpty)
+println("Top: " + s.top)
+println("Size: " + s.size)
+
+
+
+
