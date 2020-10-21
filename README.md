@@ -1,0 +1,2 @@
+# scalaPro
+Learning scala
